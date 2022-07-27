@@ -1,0 +1,248 @@
+p {
+  background-color: blue;
+}
+p {
+  background-color: hsl(101, 100%, 50%);
+}
+input[type=checkbox] {
+  accent-color: hsl(73, 100%, 50%);
+}
+
+input[type=radio] {
+  accent-color: green;
+}
+
+input[type=range] {
+  accent-color: #ff5e00;
+}
+
+progress {
+  accent-color: rgb(0, 255, 255);
+}
+#main {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#main div {
+  width: 100px;
+  height: 100px;
+}
+#main div {
+  flex: 1;
+  border: 1px solid #f05d08;
+  display: flex;
+  align-items: center;
+}
+
+#main {
+  width: 220px;
+  height: 300px;
+  border: 1px solid hsl(0, 0%, 0%);
+  display: flex;
+  align-items: flex-start;
+}
+
+#main div {
+  flex: 1;
+}
+
+#myBlueDiv {
+  align-self: center;
+}
+html {
+  font-size: small;
+  color: blue;
+}
+
+#ex1 {
+  background-color: yellow;
+  color: red;
+}
+
+#ex2 {
+  background-color: yellow;
+  color: red;
+  all: inherit;
+}
+
+#ex3 {
+  background-color: yellow;
+  color: red;
+  all: initial;
+}
+
+#ex4 {
+  background-color: yellow;
+  color: red;
+  all: unset;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove infinite;
+  animation-duration: 3s;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: #7700ff;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 5s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+div.background {
+  background: rgb(230, 173, 181) url(klematis.jpg) no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+}
+
+div.transbox {
+  background-color: #6f0cf166;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  padding: 2px;
+  margin: 10px;
+  font-weight: bold;
+}
+body { 
+  background: hsl(355, 98%, 52%) url("img_tree.gif") no-repeat fixed center; 
+}
+body  {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#myDIV { 
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat, repeat;
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-blend-mode: lighten;
+}
+#example1 {
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: border-box;  
+}
+
+#example2 {
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+}
+
+#example3 {
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: content-box;
+}
+body {
+  background-color: #ff7f50;
+}
+body  {
+  background-image: url("paper.gif");
+  background-color: hsl(236, 94%, 51%);
+}
+#example1 {
+  border: 10px dashed blue;
+  padding: 25px;
+  background: url(paper.gif);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+
+#example2 {
+  border: 10px dashed #f30a0a;
+  padding: 25px;
+  background: url(paper.gif);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+
+#example3 {
+  border: 10px dashed rgb(71, 7, 248);
+  padding: 25px;
+  background: url(paper.gif);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+p{
+  color: #7700ff;
+}
