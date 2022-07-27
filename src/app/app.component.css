@@ -246,3 +246,14 @@ body  {
 p{
   color: #7700ff;
 }
+body {
+  background-image: url("paper.gif");
+  background-repeat: repeat-y;
+}
+table.ex1 {
+  empty-cells: hide;
+}
+
+table.ex2 {
+  empty-cells: show;
+}
