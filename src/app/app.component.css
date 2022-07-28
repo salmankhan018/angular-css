@@ -287,3 +287,21 @@ img {
 #main div:nth-of-type(2) {
   flex-basis: 100px;
 }
+#example1 {
+  caption-side: bottom;
+}
+
+#example2 {
+  caption-side: top;
+}
+body {
+  color: red;
+}
+
+h1 {
+  color: #00ff00;
+}
+
+p.ex {
+  color: rgb(0,0,255);
+}
