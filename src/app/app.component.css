@@ -2,14 +2,14 @@ p {
   background-color: blue;
 }
 p {
-  background-color: hsl(101, 100%, 50%);
+  background-color: rgb(205, 239, 11);
 }
 input[type=checkbox] {
   accent-color: hsl(73, 100%, 50%);
 }
 
 input[type=radio] {
-  accent-color: green;
+  accent-color: rgb(231, 101, 14);
 }
 
 input[type=range] {
@@ -17,7 +17,7 @@ input[type=range] {
 }
 
 progress {
-  accent-color: rgb(0, 255, 255);
+  accent-color: #0011ff;
 }
 #main {
   width: 70px;
@@ -417,4 +417,114 @@ img {
   left: 0px;
   top: 0px;
   z-index: -1;
+}
+h1 {
+  text-shadow: 2px 2px #FF0000;
+}
+div.a {
+  text-transform: uppercase;
+}
+
+div.b {
+  text-transform: lowercase;
+}
+
+div.c {
+  text-transform: capitalize;
+}
+div.a {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid red;
+}
+
+div.b {
+  position: absolute;
+  top: 0;
+  border: 3px solid blue;
+} 
+
+div.c {
+  position: absolute;
+  top: 50px;
+  border: 3px solid green;
+} 
+div.ex1 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+h2.a {
+  visibility: visible;
+}
+
+h2.b {
+  visibility: hidden;
+}
+p.a {
+  white-space: nowrap;
+}
+
+p.b {
+  white-space: normal;
+}
+
+p.c {
+  white-space: pre;
+}
+div.a {
+  width: auto;
+  border: 1px solid black;
+}
+
+div.b {
+  width: 150px;
+  border: 1px solid black;  
+}
+
+div.c {
+  width: 50%;
+  border: 1px solid black;  
+}
+div {
+  width: 150px; 
+  border: 1px solid #000000;
+}
+
+div.a {
+  word-wrap: normal;
+}
+
+div.b {
+  word-wrap: break-word;
+}
+p.test1 {
+  writing-mode: horizontal-tb; 
+}
+
+p.test2 {
+  writing-mode: vertical-rl; 
+}
+
+span.test2 {
+  writing-mode: vertical-rl; 
 }
